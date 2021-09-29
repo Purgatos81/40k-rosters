@@ -7,6 +7,10 @@ body {
     margin: 20px;
 }
 
+.textDeco {
+    text-align: center;
+}
+
 .headerInputt {
     display: grid;
     grid-template-columns: 20% 80%;
