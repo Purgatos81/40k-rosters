@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgrey;
+    margin: 20px;
+}
+
+.headerInputt {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.headerLabel {
+    background-color: black;
+    color: white;
+    grid-column: 1/2;
+    padding: 5px 0px 5px 10px;
+    font-size: small;
+}
+
+.tallyInputt {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 28px 50px;
+    margin-top: 20px;
+}
+
+.tallyLabel {
+    grid-row: 1/2;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: small;
+}
+
+.cCardsInputt {
+    display: grid;
+    grid-template-columns: 5% 1fr 20% 20%; 
+    margin-top: 20px;
+}
+
+.cCardsLabel {
+    grid-row: 1/2;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: small;
+}
+
+#uNumber {
+    text-align: center;
+    font-size: 10px;
+}
+
+#cCards {
+    padding: 4px;
+}
+
+.infoForm {
+    display: grid;
+    margin-top: 20px;
+}
+
+.textLabel {
+    background-color: black;
+    color: white;
+    padding: 5px 0px 5px 10px;
+}
+
+#infoText {
+    padding: 50px;
+}
